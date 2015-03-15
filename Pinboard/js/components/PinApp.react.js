@@ -1,15 +1,15 @@
 /**
  * Created by I060307 on 15/03/2015.
  */
-//var SearchSection = require('./SearchSection.react');
+var HeaderSection = require('./HeaderSection.react');
 var React = require('react');
 var DashboardSection = require('./DashboardSection.react');
 
 var PinApp = React.createClass({
 
-    render: function() {
+    render: function () {
         return (
-            <div className="chatapp">
+            <div>
                 <DashboardSection />
             </div>
         );

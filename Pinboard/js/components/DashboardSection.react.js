@@ -19,7 +19,7 @@ var Dashboard = React.createClass({
     },
 
     componentDidMount: function() {
-        this._scrollToBottom();
+        //this._scrollToBottom();
         CardStore.addChangeListener(this._onChange);
     },
 
