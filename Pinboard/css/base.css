@@ -1,0 +1,181 @@
+body {
+    background: #ececec;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0;
+    padding: 30px;
+}
+
+a {
+    color: #4183c4;
+    text-decoration: none;
+}
+
+.dashboard {
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    margin: auto;
+    width: 59%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+code {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+    font-size: 12px;
+    margin: 0 2px;
+    padding: 0px 5px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+h1 {
+    border-bottom: 1px solid #ddd;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+h2 {
+    border-bottom: 1px solid #eee;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+p, ul {
+    margin: 15px 0;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+.comment {
+    backgroundColor: #901111; //red
+    padding : 1 %;
+    color: #eceff1;
+    position: relative;
+}
+
+.core_card {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
+    background-color: rgb(255, 255, 255);
+    left: 730px;
+    top: 290px;
+}
+
+.profile-img {
+    border-radius: 4px 4px 4px 4px;
+    float: left;
+    height: 48px;
+    padding: 5px 5px 0;
+    width: 48px;
+}
+
+.info {
+    display: block;
+    font-family: 'Georgia',Times New Roman,Times,serif;
+    margin-left: 58px;
+    overflow: hidden;
+    padding: 5px;
+    /* added for vertical ribbon */
+    width: 74%;
+}
+
+.fullname {
+    color: #333333;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.user-info {
+    height: 57px;
+    padding: 1px 5px 5px;
+}
+
+.card-text {
+    font: 18px/24px Georgia,Palatino,'Helvetica Neue',Helvetica,Arial,sans-serif !important;
+    margin-top: 20px;
+    line-height: 18px;
+    /* padding-left: 5px; */
+    word-wrap: break-word;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.screenname {
+    font-size: 14px;
+    margin-top: 1px;
+    text-shadow: 0 1px 0 white;
+    color: #BBBBBB;
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.timeago {
+    color: #BBBBBB;
+    /* display: inline-block; */
+    line-height: 18px;
+    -moz-user-select: text;
+    font-size: 12px;
+    padding-top: 1px;
+}
+
+.content {
+    color: #646464;
+}
+
+.location {
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+
+.ribbon {
+    border: medium none;
+    color: #0084B4;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    right: -146px;
+    top: -46px;
+}
+
+.ribbon img {
+    width: 55px;
+    height: 60px;
+    border:0;
+    line-height:100%;
+}

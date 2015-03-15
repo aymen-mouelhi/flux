@@ -1,4 +1,4 @@
-# Flux Tutorials
+# Flux Todo
 
-A repository containing Flux Architecture tutorials.
+Flux Todo MVC Application.
 
