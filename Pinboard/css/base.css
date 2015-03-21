@@ -65,6 +65,10 @@ a {
     width: 59%;
 }
 
+.separator {
+    margin-bottom: 20px;
+}
+
 a:hover {
     text-decoration: underline;
 }

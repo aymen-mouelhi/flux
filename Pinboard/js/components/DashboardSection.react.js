@@ -27,8 +27,11 @@ var Dashboard = React.createClass({
         CardStore.removeChangeListener(this._onChange);
     },
     render: function () {
+        var navStyle = {
+            "margin-top": "55px"
+        };
         return (
-            <div className="dashboard">
+            <div className="dashboard" style={navStyle}>
                 <CardsContainer data={this.state.cards} />
             </div>
         );
