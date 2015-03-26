@@ -226,3 +226,15 @@ ul {
     border:0;
     line-height:100%;
 }
+
+#closingTag {
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  color: white;
+  float: right;
+}
+
+#dashboard-header {
+ background: #ddd;
+}
