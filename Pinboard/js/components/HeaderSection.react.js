@@ -33,7 +33,7 @@ var HeaderSection = React.createClass({
                                         <a href="#">Helping Zone</a>
                                     </li>
                                     <li>
-                                        <a href="#">Offer</a>
+                                        <a href="#">Offers</a>
                                     </li>
                                     <li>
                                         <a href="#">Events</a>
