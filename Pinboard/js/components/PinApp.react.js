@@ -6,6 +6,8 @@ var SearchSection = require('./SearchSection.react');
 var SearchBox = require('./SearchBox.react');
 var React = require('react');
 var DashboardSection = require('./DashboardSection.react');
+var DashboardHeaderSection = require('./DashboardHeaderSection.react');
+var SidebarSection = require('./SidebarSection.react');
 
 var PAGE_SIZE = 20;
 
@@ -40,7 +42,13 @@ var PinApp = React.createClass({
         return (
             <div>
                 <HeaderSection/>
-                <DashboardSection />
+
+			    <div id="wrapper">
+			    	<DashboardHeaderSection />
+			        <DashboardSection />			    					
+					<SidebarSection />
+				</div>
+
             </div>
         );
     }

@@ -28,11 +28,17 @@ var Dashboard = React.createClass({
     },
     render: function () {
         var navStyle = {
-            "margin-top": "55px"
+            // "margin-top": "55px"
         };
         return (
-            <div className="dashboard" style={navStyle}>
-                <CardsContainer data={this.state.cards} />
+            <div id="page-content-wrapper" className="col-md-8">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-lg-12" style={navStyle}>
+                            <CardsContainer data={this.state.cards} />
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }

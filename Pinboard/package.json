@@ -5,15 +5,11 @@
   "repository": "https://github.com/aymen-mouelhi/flux",
   "main": "js/app.js",
   "dependencies": {
-    "colr": "^1.2.1",
-    "css-vendor": "^0.2.3",
     "flux": "^2.0.0",
     "keymirror": "~0.1.0",
-    "lodash": "^3.5.0",
     "object-assign": "^1.0.0",
-    "react": "^0.12.0",
-    "react-bootstrap": "latest",
-    "routr": "^0.1.0"
+    "react": "^0.13.0",
+    "react-bootstrap": "latest"
   },
   "devDependencies": {
     "browserify": "^6.2.0",
