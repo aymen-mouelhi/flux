@@ -21,3 +21,25 @@ React.render(
     <PinApp />,
     document.getElementById('react')
 );
+
+/*
+var Fluxible = require('fluxible');
+var routrPlugin = require('fluxible-plugin-routr');
+var app = new Fluxible();
+
+var pluginInstance = routrPlugin({
+    routes: {
+        user: {
+            path: '/user/:id',
+            method: 'get',
+            // flux-router-component uses this action when the route is matched
+            action: function (actionContext, payload, done) {
+                // ...
+                done();
+            }
+        }
+    }
+});
+
+app.plug(pluginInstance);
+*/
